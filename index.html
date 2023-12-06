@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mercado online</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <div id="containerIndex" class="container centralized">
+            <main id="main"></main>
+            <div class="buttons">
+                <button class="calcular" onclick="calc()">calcular</button>
+                <button class="calcular" onclick="mostrar()">Mostrar</button>
+            </div>
+            <div class="result centralized">
+                <p>total:</p>
+                <p id="result" class="centralized"></p>
+            </div>
+            <img id="codigo" src="./images/codigo.png" alt="codigo">
+        </div>
+        <script type="module" src="js/db.js"></script>
+        <script type="module" src="js/main.js"></script>
+    </body>
+</html>
